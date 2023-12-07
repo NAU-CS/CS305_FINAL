@@ -4,7 +4,7 @@ main.out : main
 	./main|tee main.out
 
 main : main.o get_student_id.o
-	$(CC) -o main.o get_student_id.o main
+	$(CC) main.o get_student_id.o -o main
 
 main.o : main.c
 	$(CC) -c main.c
