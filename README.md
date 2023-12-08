@@ -1,4 +1,4 @@
 # CS305_FINAL
 Contributors:
 Tayyaba Shaheen
-Paulina Schmidt pts46
+Paulina Schmidt 
