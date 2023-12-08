@@ -1,3 +1,3 @@
-int get_student_id(cjl525){
-  return 3331212;
+int get_student_id(void){
+  return cjl525;
 }
