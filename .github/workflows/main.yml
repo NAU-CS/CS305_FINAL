@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Remove object files
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Remove object files and make
       run: |
         rm -f *.o
-    - name: Make
-      run: |
         make
