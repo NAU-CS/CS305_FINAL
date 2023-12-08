@@ -1,3 +1,3 @@
 int get_student_id(void){
-  return 006285030;
+  return 6285030;
 }
