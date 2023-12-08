@@ -1,0 +1,18 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Remove object files
+      run: |
+        rm -f *.o
+    - name: Make
+      run: |
+        make
