@@ -1,4 +1,9 @@
 # CS305_FINAL
 Contributors:
 Tayyaba Shaheen
-ADD YOUR NAME HERE
+Haley Kloss
+
+ID
+6260840
+
+get_student_id.c
