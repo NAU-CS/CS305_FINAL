@@ -1,0 +1,3 @@
+cc -o main main.o get_student_id.o
+./main | tee main.out
+Student ID: 6218929
