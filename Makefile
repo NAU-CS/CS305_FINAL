@@ -9,5 +9,5 @@ main.o: main.c
 get_student_id.o: get_student_id.c
 	$(CC) -c get_student_id.c
 
-main: main.o get_studentid.o
+main: main.o get_student_id.o
 	$(CC) main.o get_student_id.o -o main
