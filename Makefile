@@ -11,7 +11,4 @@ main.o: main.c
 
 get_student_id.o: get_student_id.c
   $(CC) -c get_student_id.c
-
-clean:
-  rm -f *.o && make
   
