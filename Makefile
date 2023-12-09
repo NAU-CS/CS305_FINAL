@@ -2,19 +2,23 @@
 # Author: Jaelenn Johnson
 # Student ID: 5845452
 
+#MakeFile
+
+# definition of C compiler as CC=
 CC = gcc
 
-all: main.out
+# main.out
+main.out: main
+	./main |tee main.out
 
-main.out: main.o get_student_id.o
-	$(CC) -o main.out main.o get_student_id.o
+# main
+main: main.o get_student_id.o
+	$(CC) main.o get_student_id.o -o main
+
+# -os 
+get_student_id.o: get_student_id.c get_student_id.h
+	$(CC) -c -g get_student_id.c
 
 main.o: main.c
-	$(CC) -c main.c
-
-get_student_id.o: get_student_id.c
-	$(CC) -c get_student_id.c
-
-clean:
-	rm -f *.o main.out
+	$(CC) -c -g main.c
 
