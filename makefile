@@ -11,6 +11,3 @@ main.o: main.c
 
 get_student_id.o: get_student_id.c
 	cc -c get_student_id.c
-
-clean:
-	rm -f main main.out *.o
