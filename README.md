@@ -1,4 +1,4 @@
 # CS305_FINAL
 Contributors:
-Tayyaba Shaheen
+Tayyaba Shaheen,
 Jack Morris
